@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #abef911c;
+  }
+
+/* horizontal line does not matter */
+/* hr {border-style:none;
+    border-top-style: dotted;
+    border-color:white;
+    border-width:5px;
+  width:20%;} */
+
+h1{
+  color:white
+}
+h2{
+  color:#29866475;
+}
+h3{
+  color:#29866475;
+}
+h4{
+  color:#29866475;
+}
+h6{
+  color:#29866475;
+}
+p{
+  color:white;
+}
+
+.top-container {
+  background-color: #43862975;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+.middle-container {
+  /* background-color: #abef911c; */
+  text-align:center;
+  padding-top: 100px;
+  /* padding-bottom: 50px; */
+}
+/* .row{
+  box-sizing: border-box;
+} */
+.row{
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.second{
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.third{
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.fourth{
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.column{
+  float:left;
+  padding:10px;
+}
+
+.left{
+  padding-left:100px;
+  width:50%;
+}
+
+.right{
+  width:40%;
+}
+
+/* .Hobbies{
+  text-align:left
+  padding-
+} */
+
+.button{
+  color: #29866475;
+  padding: 15px 100px;
+  text-align: right;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.courses{
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.cs{
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.lists{
+  text-align:left;
+  padding-left:100px;
+  color:#29866475;
+}
+
+.special-color{
+  color:#29866475;
+  vertical-align: text-top;
+}
+
+.projects{
+  background-color:#43862975;
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+.another-special-color{
+  color:white;
+  padding-left:100px;
+  padding-right:100px;
+  text-align: center;
+}
