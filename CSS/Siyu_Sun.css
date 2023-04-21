@@ -31,9 +31,6 @@ h6 {
     color: #29866475;
 }
 
-/* p{
-  color:#abef911c;
-} */
 .intro-image {
     flex: 100%;
     opacity: 0.5;
@@ -58,20 +55,9 @@ h6 {
 }
 
 .middle-container {
-    /* background-color: white; */
     text-align: center;
-    /* text-decoration-color: #29866475; */
-    /* padding-top: 100px; */
     padding-bottom: 10%;
 }
-
-
-/* .row {
-    /* background-color: white; */
-/* padding-top: 3%;
-    padding-bottom: 3%;
-} */
-
 
 .second {
     padding-top: 200px;
@@ -88,24 +74,6 @@ h6 {
     padding-bottom: 150px;
 }
 
-/* .column{
-  float:left;
-  padding:10px;
-}
-
-.left{
-  padding-left:100px;
-  width:50%;
-}
-
-.right{
-  width:100%;
-} */
-
-/* .Hobbies{
-  text-align:center
-} */
-
 .button {
     color: #29866475;
     padding: 15px 100px;
@@ -113,29 +81,6 @@ h6 {
     font-size: 18px;
     text-decoration: none;
 }
-
-/* .courses{
-  padding-top:20px;
-  padding-bottom:20px;
-  /* margin: 50px auto 0 auto; */
-
-
-/* .courses-list{
-  /* display: flex; */
-/* flex:25%; */
-/* background-color: #29866475; */
-/* } */
-
-.cs {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-/* .lists{
-  text-align:left;
-  padding-left:100px;
-  color:#29866475;
-} */
 
 .row {
     display: flex;
@@ -172,20 +117,6 @@ h6 {
     padding-left: 100px;
     padding-right: 100px;
     text-align: center;
-}
-
-
-.progress-container {
-    padding-top: 10px;
-    width: 100%;
-    height: 8px;
-    background: #e2f8e6;
-}
-
-.progress-bar {
-    height: 8px;
-    background: #29866475;
-    width: 100%;
 }
 
 .header {
