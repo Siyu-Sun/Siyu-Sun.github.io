@@ -2,173 +2,229 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8" content="width=device-width, initial-scale=1">
-  <title>Siyu's Personal Website</title>
-  <link rel="stylesheet" href="CSS/Siyu_Sun.css">
-  <link rel="stylesheet" href="Siyu_Sun.js">
+    <meta charset="utf-8" content="width=device-width, initial-scale=1">
+    <title>Siyu's Personal Website</title>
+    <link rel="stylesheet" href="CSS/Siyu_Sun.css">
+    <script src="Siyu_Sun.js"></script>
 </head>
 
-<script>
-window.onscroll = function() {theFunction()};
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-}
-</script>
-
 <body onscroll="theFunction()">
-  <div class="header" id = "myheader">
-    <div class="button">
-      <a href="#my courses" style="color:#29866475; text-decoration: none">Courses&nbsp;&nbsp;&nbsp;</a>
-      <a href="#my projects" style="color:#29866475; text-decoration: none">Projects &nbsp;&nbsp;&nbsp;</a>
-      <a href="#activities" style="color:#29866475; text-decoration: none">Activities&nbsp;&nbsp;&nbsp;&nbsp;</a>
-      <a href="#hobbies" style="color:#29866475; text-decoration: none">Hobbies&nbsp;&nbsp;&nbsp;&nbsp;</a>
-      <a href="#contact" style="color:#29866475;text-decoration: none">Contact Information&nbsp;&nbsp;&nbsp;&nbsp;</a>
-      <!-- <div class="progress-container">
-        <div class="progress-bar" id="myBar"></div>
-      </div> -->
+    <div class="header" id="myheader">
+        <div class="button">
+            <a href="#my courses" style="color:#29866475; text-decoration: none">Courses&nbsp;&nbsp;&nbsp;</a>
+            <!-- <a href="#my projects" style="color:#29866475; text-decoration: none">Projects &nbsp;&nbsp;&nbsp;</a> -->
+            <a href="#activities" style="color:#29866475; text-decoration: none">Experiences&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="#Hobbies" style="color:#29866475; text-decoration: none">Hobbies&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <a href="#contact" style="color:#29866475;text-decoration: none">Contact
+                Information&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </div>
     </div>
-  </div>
-  <div class = "content">
+    <div class="the-row">
+        <div class="intro-image">
+            <img src="background.JPG" alt="Siyu Sun profile picture">
+        </div>
+        <div class="top-container">
+            <h1>Siyu Sun</h1>
+            <p>
+                My name is Siyu Sun. I am a math major in University of California, Irvine and want to pursue a Master
+                degree in Computer Science.
+                I know Python, Javascript, HTML, CSS, and SQL.
+            </p>
+            <p>Email: siyus6@uci.edu</p>
+            <p>Phone number: 9495723106</p>
+        </div>
+    </div>
+    <p id="my courses"> </p>
+    <!-- </div> -->
+    <h2 class="special-color-title">Courses List</h2>
+    <div class="row">
+        <!-- <p class="special-color"><strong>ICS 31:&nbsp;</strong> </p> -->
+        <div class="tooltip"><strong>ICS31</strong>
+            <span class="tooltiptext">I learn Python in ICS31 class and I also later become learning assistant of ICS31.
+            </span>
+        </div>
+        <div class="tooltip"><strong>ICS32</strong>
+            <span class="tooltiptext">Using library modules for applications such as graphics, sound, GUI, database,
+                Web, and network programming.</span>
+        </div>
+        <div class="tooltip"><strong>ICS33</strong>
+            <span class="tooltiptext">Intermediate Programming</span>
+        </div>
+        <div class="tooltip"><strong>Compsci178</strong>
+            <span class="tooltiptext">Machine Learning</span>
+        </div>
+        <div class="tooltip"><strong>Informatics 131</strong>
+            <span class="tooltiptext">Human Computer Interaction</span>
+        </div>
+        <div class="tooltip"><strong>ICS 6B</strong>
+            <span class="tooltiptext">Boolean Algebra & Logic</span>
+        </div>
+        <div class="tooltip"><strong>ICS 6D</strong>
+            <span class="tooltiptext">Discrete math in computer science</span>
+        </div>
+        <div class="tooltip"><strong>Math10</strong>
+            <span class="tooltiptext">Python libraries such as numpy, pandas, and sklearn</span>
+        </div>
+        <div class="tooltip"><strong>Math 9 </strong>
+            <span class="tooltiptext">Learn matlab and mathematica</span>
+        </div>
+        <div class="tooltip"><strong>Stats 67</strong>
+            <span class="tooltiptext">Introduction to the basic concepts of probability and statistics with discussion
+                of applications to computer science</span>
+        </div>
+        <div class="tooltip"><strong>Math 3A</strong>
+            <span class="tooltiptext">Linear Algebra</span>
+        </div>
+        <div class="tooltip"><strong>Math 105A</strong>
+            <span class="tooltiptext">Numerical Analysis</span>
+        </div>
+        <div class="tooltip"><strong>Math 110A </strong>
+            <span class="tooltiptext">Optimization</span>
+        </div>
+        <div class="tooltip"><strong>Math 130A</strong>
+            <span class="tooltiptext">Probability</span>
+        </div>
+        <div class="tooltip"><strong>Math 199A</strong>
+            <span class="tooltiptext">Symmedian point research</span>
+        </div>
+        <div class="tooltip"><strong>Math 105C</strong>
+            <span class="tooltiptext">Symmedian point research</span>
+        </div>
+        <p id="activities">
+        <div class="middle-container">
+            <h2 class="special-color-title">Undergraduate Research/Project and Teaching Experiences</h2>
+            <button class="sections">Symmedian Point Research with Professor Zhiqin Lu</button>
+            <div class="panel">
+                <p>
+                    Demonstrated three Symmedians are concurrent at Symmedian Point<br />
+                    Wrote an article showcasing properties of Symmedian Point in Latex<br />
+                    Developed an animation in JavaScript showing positions of Symmedian Point in different types of
+                    triangles. Link can be found here https://gdp.math.uci.edu/#/topic/16 <br />
+                    Presented the Symmedian research topic in Professor Lu’s undergraduate research group and
+                    Freshman seminar class.<br />
+                    Collaborated with Professor Lu’s research groups at University of California, Irvine to develop
+                    The Geometry Discovery Project Article and webpage. Link can be found here
+                    https://gdp.math.uci.edu/#/ <br />
+                </p>
+            </div>
+            <button class="sections">Image Recognition with Neural Network Research</button>
+            <div class="panel">
+                <p>
+                     Implemented features like nn and optim in PyTorch, as well as os, matplotlib, pandas and numpy
+                    in Python<br />
+                     Built convolutional layers to capture spatial relationship of pixels in image and linear
+                    layers to do millions of matrix multiplications to generate result<br />
+                     Applied functions and algorithms such as the Loss function, the Gradient Descent algorithm,
+                    and the ReLu function to evaluate and improve training dataset performance<br />
+                     Developed an algorithm that achieves correctness around 80 percent in classifying handwritten
+                    digits<br />
+                     Collaborated with Graduate student Thomas Beardsley and four other undergraduate research
+                    teammates<br />
+                </p>
+            </div>
+            <button class="sections"> Programmer in 2035 Climate CR Escape Room Project </button>
+            <div class="panel">
+                <p>
+                    The project is building a VR escape room to raise awareness of climate change. The project is
+                    programmed in Unity.
+                </p>
+            </div>
+            <button class="sections">Learning Assistant, University of California, Irvine</button>
+            <div class="panel">
+                <p>
+                    Course: Introduction of Python Programming (ICS31) <br />
+                    Responsibilities: help with students’ discussion in their group formative assessment and
+                    commented on their submitted work, hold support hours each week to help students with their
+                    course materials such as but not limited to content learning, lab and project help, and general
+                    questions regarding to the course.
+                </p>
+            </div>
+            <button class="sections">Mentor in UCI Math CEO </button>
+            <div class="panel">
+                <p>
+                    Responsibilities: plan activities for assigned middle-school students in the Santa Ana Unified
+                    School District and devote several hours per week to work with those students to develop logical
+                    thinking and calculation abilities.
+                </p>
+            </div>
+        </div>
+        <script>
+            var acc = document.getElementsByClassName("sections");
+            var i;
 
-    <div class="top-container">
-    <h1>Siyu Sun</h1>
-    <img src="SiyuSun.png" width="200" height="200" alt="Siyu Sun profile picture">
-    <h3>Introduction of myself</h3>
-    <p>
-      My name is Siyu Sun. I am a math major in University of California, Irvine and want to pursue a Master degree in Computer Science.
-      I know Python, Javascript, HTML, CSS, and SQL.
-    </p>
-    <h3>Contact information</h3>
-    <p>Email: siyus6@uci.edu</p>
-    <p>Phone number: 9495723106</p>
-    <p id="my courses">
-    </p>
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight) {
+                        panel.style.maxHeight = null;
+                    } else {
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+                    }
+                });
+            }
+        </script>
     </div>
-    <div class="courses">
-      <div class="courses cs">
-            <h3><strong>Courses</strong> I have taken that are related to computer science</h3>
-      </div>
-      <div class="courses lists">
-        <p class="special-color"><strong>ICS 31:&nbsp;</strong>I learn Python in ICS31 class and I also later become learning assistant of ICS31. </p>
-        <p class="special-color"><strong>ICS 32:&nbsp;</strong>Using library modules for applications such as graphics, sound, GUI, database, Web, and network programming.</p>
-        <p class="special-color"><strong>Math 10:</strong>&nbsp;learn Python libraries</p>
-        <p class="special-color"><strong>Math 9:</strong>&nbsp;Learn matlab and mathematica</p>
-        <p class="special-color"><strong>Stats 67:</strong>&nbsp;Introduction to the basic concepts of probability and statistics with discussion of applications to computer science.</p>
-        <p class="special-color"><strong>ICS 6B:</strong>&nbsp;Boolean Algebra & Logic</p>
-        <p class="special-color"><strong>ICS 6D:</strong>&nbsp;Discrete math in computer science</p>
-        <p class="special-color"><strong>Math 3A:</strong>&nbsp;Linear Algebra</p>
-        <p class="special-color"><strong>Math 105A:</strong>&nbsp;Numerical Analysis</p>
-        <p class="special-color"><strong>Math 110A:</strong>&nbsp;Optimization</p>
-        <p class="special-color"><strong>Math 130A:</strong>&nbsp;Probability</p>
-        <p class="special-color"><strong>Math 199C:</strong>&nbsp;Symmedian point research</p>
-        <p class="special-color"><strong>Math 199A:</strong>&nbsp;Symmedian point research</p>
+    <div class="third-container" , style="background-color:#43862975" , id="Hobbies">
+        <div class="Hobbies">
+            <h2>Hobbies</h2>
+        </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">
+                    Traveling <br />
+                    1 / 3</div>
+                <img src="traveiling.JPG" width="300" height="420">
+            </div>
 
-      </div>
-      <div class="courses plan">
-            <h3><strong>Courses</strong> I am taking</h3>
-      </div>
-      <div class="courses lists">
-        <p class="special-color"><strong>ICS 33:</strong>&nbsp;More advanced Python</p>
-        <p class="special-color"><strong>Compsci 178:</strong>&nbsp;Machine learning</p>
-        <p class="special-color"><strong>Informatics 131:</strong>&nbsp;Human Computation Interaction</p>
-        <p id="my projects">
+            <div class="mySlides fade">
+                <div class="numbertext">Baking <br />2 / 3</div>
+                <img src="baking.jpg" width="300" height="420">
+            </div>
 
-        </p>
-      </div>
-    <div class="projects">
-      <h3 class="another-special-color"><strong>Projects</strong> I have done by myslef</h3>
-      <h4 class="another-special-color">Siyu Sun's personal website</h4>
-      <p class="another-special-color">
-        In Siyu Sun's personal website, I wrote brief introductions of myself, the courses I have attended,
-        the project that I do on my own to show my skills in programming, as well as activities in college and hobbies.
-        I taught myself html and css while building the personal website.<br /><br /><br /><br />
-      </p>
-      <h4 class="another-special-color">Siyu Sun's planner</h4>
-      <p class="another-special-color">
-        In Siyu Sun's planner, there will be a login page, and after log in the account, there will be a planner
-        for one to write their goals for each day, each week, and each month, and allow one to select how much they have finished
-        their goals and the planner will calculate the completion rate for each day, week, and month.
-        Aim of the planner is to let people better manage their time and improve efficiency and can also act as a normal planner
-        to write down what they want to do and what they have done.<br /><br /><br /><br />
+            <div class="mySlides fade">
+                <div class="numbertext">Playing Tennis <br />3 / 3</div>
+                <img src="tennis.png" width="300" height="420">
+            </div>
+            <br /><br />
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
 
-      </p>
-      <p id="activities">
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
 
-      </p>
-      </div>
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
 
-    </div>
-    <div class="middle-container">
-      <h2><strong>Activities</strong> in college</h2>
-    <!-- Descriptions of these activities and also a picture from the acticity -->
-    </div>
-    <div class="row first" style="background-color:#white">
-      <div class="column left">
-        <h3>
-          Symmedian Point research project:
-        </h3>
-        <h3>
-             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I had a research project with Professor Lu investigating Symmedian Point, which are intersections of three symmedians. In the project,
-          I wrote proof of why three symmedians are concurrent at one point, the Symmedian Point, as well as properties of Symmedian Point.
-          To show what will the Symmedian Point be like I wrote an animation of Symmedian Point in a triangle using Javascript.
-          I also give a presentation about my research topic, Symmedian Point, in Professor Lu's Math 199A class.
-        </h3>
-        <h4>PDF file for Symmedian Point&nbsp;&nbsp;<a href="/Users/sunsiyu/Desktop/Siyu-Sun.github.io/Symmedian_Point_Topic16.pdf" style="color:#29866475">Symmedian Point</a><br />
-        PPT that I use for presentation&nbsp;&nbsp;<a href="/Users/sunsiyu/Desktop/Siyu-Sun.github.io/Symmedian Point.pptx" style="color:#29866475">Symmedian Point PPT</a>
-        <br />Symmedian Point is topic 16 in the Geometry Discovery Project&nbsp;&nbsp;<a href="https://gdp.math.uci.edu/#/" style="color:#29866475">Geometry Discovery Project@UCI</a></p>
-      </div>
-      <div class="column right">
-         <img src="199C photo.jpg" height='302', width='403', alt="199C photo">
-      </div>
-    </div>
-    <div class="row second">
-      <div class="column left">
-        <h3>
-          We use neural network to classify hand-written digits. We use dataset from Kaggle...(More details)
-        </h3>
-      </div>
-    </div>
-    <div class="row third">
-      <div class="column left">
-        <h3>
-          I am a learning assistant for ICS31 in Fall 2022. I help collect the exam each Tuesday and help with formative assessment, which students work in a group in class.
-          I also have support hours on Monday and Wednesday so that students can come and ask me questions.
-        </h3>
-      </div>
-    </div>
-    <div class="row fourth">
-      <div class="column left">
-        <h3>
-          I volunteered for teaching middle school students math in Math CEO Club in Spring 2022.
-          We have activities for each table of students to let them practice calculations as well as logic.
-        </h3>
-      </div>
-    </div>
-    <div class="none", id="hobbies">
-
-    </div>
-    <div class="third-container", style="background-color:#43862975">
-      <div class="Hobbies">
-        <h3>Hobbies</h3>
-      </div>
-      <div class="row fifth">
-        <p>I like baking</p>
-      </div>
-      <div class="row sixth">
-        <p>I play tennis</p>
-      </div>
-      <div class="row seventh">
-        <p>I enjoy travelling</p>
-      </div>
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+        <br>
     </div>
     <div class="fourth-container">
-      <h3 id="contact">Contact information</h3>
-      <h4>Email: siyus6@uci.edu</h4>
-      <h4>Phone number: 9495723106</h4>
+        <h3 id="contact">Contact information</h3>
+        <h4>Email: siyus6@uci.edu</h4>
+        <h4>Phone number: 9495723106</h4>
     </div>
-  </div>
 
 </body>
 
