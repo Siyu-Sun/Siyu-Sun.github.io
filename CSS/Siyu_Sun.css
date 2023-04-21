@@ -28,6 +28,7 @@ h6 {
     width: 100%;
     height: auto;
     opacity: 0.5;
+    object-fit: cover;
 }
 
 .top-container {
