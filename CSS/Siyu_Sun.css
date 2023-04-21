@@ -149,10 +149,8 @@ h6 {
 .slideshow-container {
     max-width: 100%;
     position: relative;
-    /* margin: auto; */
 }
 
-/* Next & previous buttons */
 .prev,
 .next {
     cursor: pointer;

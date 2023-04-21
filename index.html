@@ -147,6 +147,23 @@
                     thinking and calculation abilities.
                 </p>
             </div>
+            <script>
+                var acc = document.getElementsByClassName("sections");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function () {
+                        this.classList.toggle("active");
+                        var panel = this.nextElementSibling;
+                        if (panel.style.maxHeight) {
+                            panel.style.maxHeight = null;
+                        } else {
+                            panel.style.maxHeight = panel.scrollHeight + "px";
+                        }
+                    });
+                }
+
+            </script>
         </div>
     </div>
     <div class="third-container" , style="background-color:#43862975" , id="Hobbies">
